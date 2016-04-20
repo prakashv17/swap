@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  designer: MyString
+  price: 9.99
+  user: MyString
+  id: 1
+
+two:
+  designer: MyString
+  price: 9.99
+  user: MyString
+  id: 1
