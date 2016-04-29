@@ -1,0 +1,16 @@
+<div class="booyah-box col-xs-10 col-xs-offset-1">
+	<h2>Enter your items for sale</h2>
+	<div class="row">
+		<div class="col-xs-6">
+	    	<%= simple_form_for @products do |f| %>
+			<%= f.input :style %>
+			<%= f.input :designer %>
+			<%= f.input :color %>
+			<%= f.input :price %>
+			<br />
+			 <%= f.submit 'List for Sale', class: 'btn btn-primary'%>
+  		</div>
+  	</div>
+		
+		<% end %>
+</div>

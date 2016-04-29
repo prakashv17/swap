@@ -5,6 +5,10 @@ class CreateProducts < ActiveRecord::Migration
       t.decimal :price, :precision => 8, :scale => 2
       t.integer :user_id
 
+
+
+      
+
       t.timestamps
     end
   end

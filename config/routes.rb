@@ -1,8 +1,14 @@
 Store::Application.routes.draw do
   devise_for :users
+
+  root 'products#index' 
   resources :products
 
-   root 'products#index' 
+   
+
+  resources :profile, only: :show
+
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
